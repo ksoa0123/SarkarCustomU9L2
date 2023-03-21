@@ -12,12 +12,14 @@ public class Main {
         System.out.println(myPerson.age);
         myPerson.learn();
         System.out.println(myPerson.speakEnglish);
+        myPerson.die();
 
         Alien myAlien = new Alien("Lifeform123424", 23245324);
         System.out.println(myAlien.name);
         System.out.println(myAlien.age);
         myAlien.train();
         System.out.println(myAlien.canAbduct);
+        myAlien.die();
 
     }
 }
